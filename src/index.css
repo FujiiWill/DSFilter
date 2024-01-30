@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+
+  --dsf-color-bg-primary: #55BC04;
+  --dsf-color-bg-secondary: #C2C2C2;
+  --dsf-color-bg-tertiary: #FFF;
+
+  --dsf-color-font-primary: #FFF;
+  --dsf-color-font-secondary: #C2C2C2;
+  --dsf-color-font-tertiary: #6F6F6F;
+  --dsf-color-font-quaternary: #55BC04;
+
+  --dsf-color-border-primary: #C2C2C2;
+  --dsf-color-border-secondary: #55BC04;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+a, a:hover{
+  text-decoration: none;
+  color: unset;
+}
+
+.dsf-mt20{
+  margin-top: 20px;
+}
+
+.dsf-mb20{
+  margin-bottom: 20px;
+}
+
+header{
+  background-color: var(--dsf-color-bg-primary);
+  color: var(--dsf-color-font-primary);
+  height: 70px;
+  display: flex;
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container h1{
+  font-size: 20px;
+}
+
+.header-container p{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+body{
+  background-color: var(--dsf-color-bg-secondary);
+}
+
+.filter-card{
+  background-color: var(--dsf-color-bg-tertiary);
+  height: 200px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.data-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.data-container input{
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid var(--dsf-color-border-primary);
+  padding: 10px;
+  font-size: 16px;
+}
+
+.data-container input::placeholder{
+  color: var(--dsf-color-font-secondary);
+}
+
+.button{
+  background-color: var(--dsf-color-bg-primary);
+  color: var(--dsf-color-font-primary);
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.listing-card{
+  background-color: var(--dsf-color-bg-tertiary);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.product-card{
+  width: 100%;
+  border: 1px solid var(--dsf-color-border-secondary);
+  border-radius: 5px;
+  height: 53px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.product-name{
+  color: var(--dsf-color-font-tertiary);
+  font-size: 12px;
+}
+
+.product-price{
+  color: var(--dsf-color-font-quaternary);
+  font-size: 16px;
+  font-weight: 700;
+}
