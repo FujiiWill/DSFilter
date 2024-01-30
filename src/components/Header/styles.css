@@ -1,0 +1,21 @@
+header {
+  background-color: var(--dsf-color-bg-primary);
+  color: var(--dsf-color-font-primary);
+  height: 70px;
+  display: flex;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-container h1 {
+  font-size: 20px;
+}
+
+.nav-container p {
+  font-size: 12px;
+  font-weight: 700;
+}

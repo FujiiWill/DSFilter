@@ -1,0 +1,37 @@
+.filter-card {
+  background-color: var(--dsf-color-bg-tertiary);
+  height: 200px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-container input {
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid var(--dsf-color-border-primary);
+  padding: 10px;
+  font-size: 16px;
+}
+
+.filter-container input::placeholder {
+  color: var(--dsf-color-font-secondary);
+}
+
+.button {
+  background-color: var(--dsf-color-bg-primary);
+  color: var(--dsf-color-font-primary);
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
