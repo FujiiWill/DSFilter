@@ -21,6 +21,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  background-color: var(--dsf-color-bg-secondary);
+}
+
 .container {
   width: 100%;
   max-width: 960px;
@@ -41,6 +46,8 @@ a:hover {
   margin-bottom: 20px;
 }
 
-body {
-  background-color: var(--dsf-color-bg-secondary);
+.listing-card {
+  background-color: var(--dsf-color-bg-tertiary);
+  padding: 10px 20px;
+  border-radius: 5px;
 }
